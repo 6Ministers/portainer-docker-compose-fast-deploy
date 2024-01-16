@@ -46,8 +46,8 @@ cd portainer
 To change the domain in the `Caddyfile` to your own
 
 ``` bash
-https://your-domain.com:443 {
-    reverse_proxy :9443
+https://portainer.your-domain.com:443 {
+    reverse_proxy :9000
 	# tls admin@example.org
 	encode zstd gzip
 	file_server
@@ -62,7 +62,7 @@ https://your-domain.com:443 {
 docker-compose up -d
 ```
 
-Then open `https://portainer.domain.com:` to access Portainer
+Then open `https://portainer.your-domain.com:` to access Portainer
 
 
 ## Portainer container management

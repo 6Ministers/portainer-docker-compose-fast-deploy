@@ -1,4 +1,4 @@
-https://your-domain.com:443 {
+https://portainer.your-domain.com:443 {
     reverse_proxy :9000
 	# tls admin@example.org
 	encode zstd gzip

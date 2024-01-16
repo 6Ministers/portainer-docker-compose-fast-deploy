@@ -1,5 +1,5 @@
 https://your-domain.com:443 {
-    reverse_proxy :9443
+    reverse_proxy :9000
 	# tls admin@example.org
 	encode zstd gzip
 	file_server

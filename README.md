@@ -46,7 +46,7 @@ cd portainer
 To change the domain in the `Caddyfile` to your own
 
 ``` bash
-https://your-domain:443 {
+https://your-domain.com:443 {
     reverse_proxy :9443
 	# tls admin@example.org
 	encode zstd gzip
